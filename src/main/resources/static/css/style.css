@@ -1,0 +1,101 @@
+body {
+    background-image: url('../images/background.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header, footer, main {
+    width: 100%;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+main {
+    top: 25%;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.button-index {
+    width: 35%;
+    font-size: 36pt;
+}
+
+.button-header, .counter {
+    width: 20%;
+}
+
+.button-index, .button-header, #button-next {
+    background-color: #2A90FF;
+    color: #000000;
+}
+
+.result-window {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 250px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.result-content {
+    background-color: #FEFEFE;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 80%;
+}
+
+.close {
+    color: #990000;
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #FF0000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#image-simulator {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#image-road-sign {
+    width: 200px;
+}
+
+#title {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: right;
+}
+
+#button-next {
+    width: 35%;
+    visibility: hidden
+}
+
+#counters {
+    width: 60%;
+    text-align: right;
+    font-size: 24pt;
+}
